@@ -1,0 +1,9 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic3VzaG1pdGhhIiwiaWF0IjoxNjQzMTY5MzkzfQ.3O9k57nxGeGVm7g9fevyWc-V_6UtapAt21n-ERKQW0I
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username" : "sushmitha"
+}
